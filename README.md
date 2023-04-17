@@ -1,5 +1,5 @@
-# TranscriptionAnalysisProject
-QTM 350 Project geared towards AWS
+# Transcription Analysis Using AWS Textract
 
+## Introduction
 
 hello
