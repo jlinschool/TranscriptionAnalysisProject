@@ -8,4 +8,4 @@ The data that we used was gathered from the Emory undergraduate student body. Th
 ## Architectural Overview
 ![Roadmap](/images/Map.jpeg)
 
-hello
+The user will first open Amazon Sagemaker where Textract API will be able to be called and subsequent data analysis will use structures from the S3 buckets possessed b the user. 
