@@ -29,7 +29,9 @@ Professional benefits: Good handwriting is important in many professions, such a
 Good handwriting is important for both personal and professional success and is a skill that should be cultivated- even in our increasingly digital world. In analyzing the differences in handwriting between majors we hope to not only explore AWS Textract in-depth but also find valuable insights that Emory could use to increase handwriting legibility at a campus-wide level.
 
 ## Overall Workflow
-The data that we used was gathered from the Emory undergraduate student body. The sample was taken by asking students to complete a standardized writing task. Each student wrote with their dominant hand (indicated on form) and 
+The data that we used was gathered from the Emory undergraduate student body. The sample was taken by asking students to complete a standardized writing task. Each student wrote with their dominant hand (indicated on form) and copied a short sentence that featured each letter of the alphabet. Students were also asked to provide information such as name, school/major, and graduating class year. A picture of the form can be found below:
+
+![Form](/images/Form.png
 
 ## Architectural Overview
 ![Roadmap](/images/Map.jpeg)
