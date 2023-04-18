@@ -30,16 +30,16 @@ Good handwriting is important for both personal and professional success and is 
 
 ## Data-Collection Workflow
 The data that we used was gathered from the Emory undergraduate student body. The sample was taken by asking students to complete a standardized writing task. Each student wrote with their dominant hand (indicated on form) and copied a short sentence that featured each letter of the alphabet. Students were also asked to provide information such as name, school/major, and graduating class year. A picture of the form can be found below:
-
 ![Form](/images/Form.png)
 
 Upon completion of this form, handwriting was compiled into a single PDF with each page being a subsequent individual's response. These PDF's were filed into an S3 bucket for loading and data analysis. Once this was done, SageMaker as well as notebooks in the .ipynb format with access to Textract API were used for analysis.
 
 ## Analysis workflow
-The project required an asynchronous Textract algorithm which allowed us to extract up to 5000 pages of PDF (although our data did not require this). The json was then filtered for lines of interest as well as metrics that would aid in the analysis. This was then used for separate detailed analyses that will be detailed along with the rest of code segments in the blog (Link) as well as directly available in the markdown ([Link](https://github.com/jlinschool/TranscriptionAnalysisProject/blob/main/FinalMarkdown.ipynb))
+The project required an asynchronous Textract algorithm which allowed us to extract up to 5000 pages of PDF (although our data did not require this). The json was then filtered for lines of interest as well as metrics that would aid in the analysis. This was then used for separate detailed analyses that will be detailed along with the rest of code segments in the blog (Link) as well as directly available in the markdown ([Link](https://github.com/jlinschool/TranscriptionAnalysisProject/blob/main/FinalMarkdown.ipynb)).
 
 ## Sample output
-The following is a sample extracted
+The following is a sample extracted from a single sample within our dataset. Given is the corresponding text recognition as well matched confidence score that the algorithm assigns each recognition. For reference, the sentence written was: "The quick brown fox jumps over the lazy dog. Felix Yang, BBA + QSS 2026" Lower recognition scores seem to be associated with either omission or misrecognition of a few characters.
+![Example1](/images/Example1.png)
 
 ## Architectural Overview
 ![Roadmap](/images/Map.jpeg)
