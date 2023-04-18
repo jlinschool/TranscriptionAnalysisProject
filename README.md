@@ -30,6 +30,7 @@ Good handwriting is important for both personal and professional success and is 
 
 ## Overall Workflow
 The data that we used was gathered from the Emory undergraduate student body. The sample was taken by asking students to complete a standardized writing task. Each student wrote with their dominant hand (indicated on form) and copied a short sentence that featured each letter of the alphabet. Students were also asked to provide information such as name, school/major, and graduating class year. A picture of the form can be found below:
+
 ![Form](/images/Form.png)
 
 ## Architectural Overview
