@@ -33,6 +33,8 @@ The data that we used was gathered from the Emory undergraduate student body. Th
 
 ![Form](/images/Form.png)
 
+Upon completion of this form, handwriting was compiled into a single PDF with each page being a subsequent individual's response. These PDF's were filed into an S3 bucket for loading and data analysis.
+
 ## Architectural Overview
 ![Roadmap](/images/Map.jpeg)
 
